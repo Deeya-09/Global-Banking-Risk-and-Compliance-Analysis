@@ -1,4 +1,4 @@
-# Global-Banking-Customer-Risk-Analysis
+# Global Banking Risk and Compliance Analysis
 ## Overview
 This project analyses a synthetic global banking dataset in Microsoft Excel to explore customer financial health, credit quality, KYC status and risk. Financial leverage, demographics and compliance were mainly assessed in the context of 
 
