@@ -27,7 +27,7 @@ The raw data was imported using **Power Query** with UTF-8 encoding. The dataset
 High risk customers had an average debt ratio of 45.64% compared to the 22.40% for low-risk customers.
 
 - **Credit score analysis with risk**
-Customers with exceptional credit scores were concentrated in the low risk category at 166. 
+166 customers with exceptional credit scores were concentrated in the low risk category. 
 
 - **Pending KYC customers represented a potential compliance concern.**
 All 253 customers with Pending KYC status were classified as either High Risk (127) or Medium Risk (126), with no Low-Risk customers in this group.
@@ -50,5 +50,13 @@ Pending KYC cases among higher-risk customers were geographically concentrated i
 - **Income-Based Financial Profile**
 High-income customers held the highest average account balance ($231.7K) but also carried the highest average debt ($101.8K). Low-income customers had substantially lower average balances ($14.4K) and debt ($10.4K). Despite these large financial differences, average credit scores remained similar across income groups, ranging from approximately 683 to 735. This is consistent with the fact that credit scoring does not factor in net worth or salary allowing low income individuals to achieve higher credit scores.
 
-
+## Recommendations
+- Prioritise pending KYC cases among high and medium-risk customers for compliance review.
+- Investigate the geographic concentration of pending KYC cases, particularly identified to be in Japan.
+- Investigate customer groups showing higher debt ratios, as debt burden increases substantially across higher-risk categories.
+- Consider multiple financial indicators when assessing customers, since credit score alone did not consistently correspond with overall risk classification.
+- Monitor account types and income brackets that are associated with higher debt. 
   
+## Conclusion
+This project analysed banking data to identify patterns in risk, debt, KYC compliance, income and financial behaviour. The analysis highlighted several areas of potential business and compliance concern, particularly the relationship between debt, risk and the concentration of unresolved KYC cases within specific customer geography and segments. 
+
