@@ -21,13 +21,34 @@ The raw data was imported using **Power Query** with UTF-8 encoding. The dataset
 * **Income Category:** Income data was distinctly grouped (e.g., Low, Medium, High Earners).
 * **Days Inactive:** Computed to track engagement levels and identify dormant accounts.
   
-## Exploratory Data Analysis
+## Key Findings
+
+- **Debt burden was strongly associated with customer risk.**
+High risk customers had an average debt ratio of 45.64% compared to the 22.40% for low-risk customers.
+
+- **Credit score analysis with risk**
+Customers with exceptional credit scores were concentrated in the low risk category at 166. 
+
+- **Pending KYC customers represented a potential compliance concern.**
+All 253 customers with Pending KYC status were classified as either High Risk (127) or Medium Risk (126), with no Low-Risk customers in this group.
+
+- **Account holders that carried most debt**
+Business and Premium account holders had the highest average debt, at approximately $99.2K and $94.7K respectively.
+
+- **Debt Ratio vs Risk:**
+High-risk customers had the highest average debt ratio (45.64%), compared with 29.72% for Medium-risk and 22.40% for Low-risk customers. This shows a clear relationship between higher debt burden and higher assigned risk.
+
+- **KYC and Age Profile**
+Pending KYC cases were concentrated among relatively younger customers. High-risk customers with pending KYC had an average age of 40.03 years.
+
+- **KYC and Risk Profile**
+Pending KYC cases were concentrated entirely among higher-risk customers and were overwhelmingly associated with the low-income segment.
+
+- **KYC and Geographic Profile**
+Pending KYC cases among higher-risk customers were geographically concentrated in a small number of countries rather than being evenly distributed. Japan had the largest concentration indicating a geographic hotspot for compliance review.
+
+- **Income-Based Financial Profile**
+High-income customers held the highest average account balance ($231.7K) but also carried the highest average debt ($101.8K). Low-income customers had substantially lower average balances ($14.4K) and debt ($10.4K). Despite these large financial differences, average credit scores remained similar across income groups, ranging from approximately 683 to 735. This is consistent with the fact that credit scoring does not factor in net worth or salary allowing low income individuals to achieve higher credit scores.
 
 
-
-
-## Key Analysis and Findings 
-During the analysis, medium risk customers represented the largest group. Business Accounts held the highest debt ratio average. 
-wealth accumulation pattern. which age customer become most valuable to bank. Crossed KYC with risk category and found high risk customers who have pending verification. credit score band of exceptional belong to low risk category. Are those low risk categories are all verified. 
-who are the high risk category who are pending? Average age of pending KYC is found. 
   
